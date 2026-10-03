@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE-AIML Team | Our Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">CSE-AIML Team</a>
+      <div class="nav-controls">
+        <nav>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="team.html" class="nav-link">Our Team</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle Theme"></button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1 class="page-title">Our Projects</h1>
+      <p class="page-subtitle">
+        Things we've built while learning, experimenting and solving real problems.
+      </p>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="aiml">AI/ML</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="other">Other</button>
+    </div>
+
+    <!-- Project Cards Grid -->
+    <div class="projects-grid">
+      <!-- 1. Smart Attendance System -->
+      <div class="project-card" data-category="aiml python">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop" alt="Smart Attendance System">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Smart Attendance System</h3>
+          </div>
+          <p class="project-desc">A system to automate attendance using face recognition.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Flask</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Weather Dashboard -->
+      <div class="project-card" data-category="web">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Weather Dashboard">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Weather Dashboard</h3>
+          </div>
+          <p class="project-desc">A responsive dashboard to show real-time weather information.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">API</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Chatbot Application -->
+      <div class="project-card" data-category="aiml python">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=800&auto=format&fit=crop" alt="Chatbot Application">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Chatbot Application</h3>
+          </div>
+          <p class="project-desc">A simple chatbot using NLP.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Flask</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Expense Tracker -->
+      <div class="project-card" data-category="web">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop" alt="Expense Tracker">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Expense Tracker</h3>
+          </div>
+          <p class="project-desc">A web app to track daily expenses.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Image Classifier -->
+      <div class="project-card" data-category="aiml python">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" alt="Image Classifier">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Image Classifier</h3>
+          </div>
+          <p class="project-desc">A machine learning model to classify images.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">Python</span>
+            <span class="tag">ML</span>
+            <span class="tag">OpenCV</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Student Management -->
+      <div class="project-card" data-category="web other">
+        <div class="project-thumb">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Student Management">
+        </div>
+        <div class="project-info">
+          <div class="project-header">
+            <h3 class="project-title">Student Management</h3>
+          </div>
+          <p class="project-desc">A web application to manage student records.</p>
+          <div class="tag-list" style="margin-bottom: 1.25rem;">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-footer">
+            <div class="project-actions">
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                Code
+              </a>
+              <a href="#" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 CSE-AIML Team. Web Technology Project.</p>
+      <ul class="footer-nav">
+        <li><a href="index.html" class="footer-link">Home</a></li>
+        <li><a href="team.html" class="footer-link">Our Team</a></li>
+        <li><a href="projects.html" class="footer-link">Projects</a></li>
+        <li><a href="skills.html" class="footer-link">Skills</a></li>
+        <li><a href="contact.html" class="footer-link">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
